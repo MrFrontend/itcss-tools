@@ -1,0 +1,49 @@
+@import "spacing-variables";
+
+// Margin
+@each $size, $length in $spacers {
+  .mt-#{$size} {
+    margin-top: $length !important;
+  }
+  .mr-#{$size} {
+    margin-right: $length !important;
+  }
+  .mb-#{$size} {
+    margin-bottom: $length !important;
+  }
+  .ml-#{$size} {
+    margin-left: $length !important;
+  }
+}
+
+// Padding
+@each $size, $length in $spacers {
+  .pt-#{$size} {
+    padding-top: $length !important;
+  }
+  .pr-#{$size} {
+    padding-right: $length !important;
+  }
+  .pb-#{$size} {
+    padding-bottom: $length !important;
+  }
+  .pl-#{$size} {
+    padding-left: $length !important;
+  }
+}
+
+// Position
+@each $size, $length in $spacers {
+  .top-#{$size} {
+    top: $length !important;
+  }
+  .right-#{$size} {
+    right: $length !important;
+  }
+  .bottom-#{$size} {
+    bottom: $length !important;
+  }
+  .left-#{$size} {
+    left: $length !important;
+  }
+}
