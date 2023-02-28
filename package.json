@@ -1,6 +1,6 @@
 {
-  "name": "ITCSS tools",
-  "version": "0.0.1",
+  "name": "@mrfrontend/itcss-tools",
+  "version": "0.0.2",
   "description": "ITCSS set of mixins and functions to use globally.",
   "repository": {
     "type": "git",
@@ -13,5 +13,9 @@
     "LESS"
   ],
   "author": "Antoni Huguet Vives, aka MrFrontend",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrFrontend/itcss-tools/issues"
+  },
+  "homepage": "https://github.com/MrFrontend/itcss-tools#readme"
 }
