@@ -2,6 +2,9 @@
 
 // Margin
 @each $size, $length in $spacers {
+  .m-#{$size} {
+    margin: $length !important;
+  }
   .mt-#{$size} {
     margin-top: $length !important;
   }
@@ -14,10 +17,21 @@
   .ml-#{$size} {
     margin-left: $length !important;
   }
+  .mx-#{$size} {
+    margin-right: $length !important;
+    margin-left: $length !important;
+  }
+  .my-#{$size} {
+    margin-top: $length !important;
+    margin-bottom: $length !important;
+  }
 }
 
 // Padding
 @each $size, $length in $spacers {
+  .p-#{$size} {
+    padding: $length !important;
+  }
   .pt-#{$size} {
     padding-top: $length !important;
   }
@@ -29,6 +43,14 @@
   }
   .pl-#{$size} {
     padding-left: $length !important;
+  }
+  .mx-#{$size} {
+    padding-right: $length !important;
+    padding-left: $length !important;
+  }
+  .my-#{$size} {
+    padding-top: $length !important;
+    padding-bottom: $length !important;
   }
 }
 
