@@ -34,3 +34,13 @@
 .text-unset {
   text-align: unset !important;
 }
+// Transformations
+.text-lowercase {
+  text-transform: lowercase!important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-capitalize {
+  text-transform: capitalize!important;
+}
