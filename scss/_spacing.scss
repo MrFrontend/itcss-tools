@@ -1,7 +1,7 @@
-@import "spacing-variables";
+@use "spacing-variables" as variables;
 
 // Margin
-@each $size, $length in $spacers {
+@each $size, $length in variables.$spacers {
   .m-#{$size} {
     margin: $length !important;
   }
@@ -46,7 +46,7 @@
 }
 
 // Padding
-@each $size, $length in $spacers {
+@each $size, $length in variables.$spacers {
   .p-#{$size} {
     padding: $length !important;
   }
@@ -73,7 +73,7 @@
 }
 
 // Position
-@each $size, $length in $spacers {
+@each $size, $length in variables.$spacers {
   .top-#{$size} {
     top: $length !important;
   }

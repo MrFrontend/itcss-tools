@@ -3,10 +3,11 @@
 // Control the default styling of most Bootstrap elements by modifying these
 // variables. Mostly focused on spacing.
 // You can add more entries to the $spacers map, should you need more variation.
+@use "sass:map";
 
 $spacer: 1rem !default;
 $spacers: () !default;
-$spacers: map-merge(
+$spacers: map.merge(
                 (
                         0: 0,
                         1: ($spacer * .25),
@@ -20,7 +21,7 @@ $spacers: map-merge(
 
 // This variable affects the `.h-*` and `.w-*` classes.
 $sizes: () !default;
-$sizes: map-merge(
+$sizes: map.merge(
                 (
                         25: 25%,
                         50: 50%,

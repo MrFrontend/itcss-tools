@@ -1,6 +1,6 @@
 {
   "name": "@mrfrontend/itcss-tools",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "ITCSS set of mixins and functions to use globally.",
   "repository": {
     "type": "git",
