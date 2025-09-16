@@ -25,3 +25,11 @@
 .flex-wrap { flex-wrap: wrap !important; }
 .flex-wrap-reverse { flex-wrap: wrap-reverse !important; }
 .flex-shrink-0 { flex-shrink: 0 !important; }
+
+/* Gap */
+.gap-0 { gap: 0 !important;}
+.gap-1 { gap: 0.25rem !important;}
+.gap-2 { gap: 0.5rem !important;}
+.gap-3 { gap: 1rem !important;}
+.gap-4 { gap: 1.5rem !important;}
+.gap-5 { gap: 3rem !important;}
